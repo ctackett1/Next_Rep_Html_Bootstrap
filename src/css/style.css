@@ -1,0 +1,72 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  background-image: url("../img/lifter-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  width: auto; }
+
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.navigation_bar {
+  color: white;
+  text-decoration: none; }
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 290px;
+  height: 100%;
+  margin: 0;
+  overflow: auto; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white; }
+
+.lb {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 240px; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7); }
+
+.social {
+  font-size: 30px;
+  padding-top: 62px; }
+
+.drive {
+  vertical-align: middle; }
+
+.title {
+  font-size: 100px;
+  color: white; }
+
+.period {
+  font-size: 150px; }
+
+.sub-heading {
+  color: white; }
+
+.fa-angle-double-right {
+  color: gold; }
+
+.section_full {
+  width: 100%;
+  height: auto; }
+
+.row {
+  max-width: 100%; }
+
+.container {
+  max-width: 100%;
+  padding: 0; }
