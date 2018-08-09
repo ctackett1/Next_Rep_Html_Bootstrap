@@ -1,33 +1,46 @@
 
-body{
-font-family: 'Raleway', sans-serif;
-background-color: black;
-  background-image: url("../img/lifter-image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-height: 100%;
-  width: auto;
-
-}
-body, html {
+.sidenav {
     height: 100%;
-    margin: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.85);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.navigation_bar{
-  color: white;
-  text-decoration: none;
+.sidenav li {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a{
 
 }
 
-  .bg{
-    background-color: rgba(0,0,0,.8);
-    width: 290px;
-    height: 100%;
-    margin:0;
-    overflow: auto;
-  }
+.sidenav a:hover {
+    color: rgba(255,255,255,.6);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
 ul{
   list-style-type: none;
   padding: 0;
@@ -37,6 +50,51 @@ ul{
   border-bottom: 1px solid rgba(255, 255, 255, .1);
   width: 240px;
 }
+
+.fa-angle-double-right{
+  color: gold;
+}
+body{
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+h1,h2{
+  font-weight: 700;
+}
+background-color: black;
+  background-image: url("../img/lifter-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  width: auto;
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  max-width: 100%;
+
+}
+.row{
+  max-width: 100%;
+}
+
+
 
 a{
   text-decoration: none;
@@ -48,11 +106,13 @@ a:hover{
 }
 
 .social{
-  font-size: 30px;
-  padding-top: 62px;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 23%;
 }
 .drive{
-  vertical-align: middle;
+  margin-top: 25%;
+  margin-bottom:auto;
 }
 .title{
   font-size: 100px;
@@ -74,6 +134,9 @@ a:hover{
 .row{
   max-width: 100%;
 }
+.container-fluid{padding:0;}
+
+
 .container{
   max-width: 100%;
   padding: 0;
